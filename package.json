@@ -2,6 +2,18 @@
   "name": "kno",
   "version": "0.1.0",
   "description": "The simplest way to add passwordless authentication to your application.",
+  "keywords": [
+    "passwordless",
+    "magic link",
+    "authentication",
+    "auth",
+    "webauthn",
+    "public key",
+    "asymetric",
+    "security",
+    "login",
+    "2fa"
+  ],
   "repository": "trykno/kno-nodejs",
   "homepage": "https://trykno.com",
   "main": "lib/kno.js",
