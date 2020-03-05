@@ -1,5 +1,9 @@
 extends layout
 
 block content
+  if userId
+    span User ID #{userId}
+  else
+    a.button.action(href='/session/authenticate') Sign in
   h1= title
   p Welcome to #{title}
